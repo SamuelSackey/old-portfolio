@@ -1,0 +1,62 @@
+html {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  color: white;
+  font-family: "Share Tech Mono", monospace;
+
+  background-image: url("./laptopbw.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-color: black;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 80px;
+}
+
+.center {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex: 1;
+}
+
+ul {
+  text-align: center;
+  margin-top: 25px;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  margin: 0px 25px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  transition: padding 0.25s;
+}
+
+a:hover {
+  padding: 0px 20px;
+  border-bottom: 2px solid white;
+}
+
+footer {
+  text-align: center;
+}
